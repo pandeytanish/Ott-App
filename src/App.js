@@ -6,6 +6,7 @@ import BannerSecond from './Components/Banners/BannerSecond';
 import BannerThird from './Components/Banners/BannerThird';
 import Questions from './Components/Questions/Questions';
 import Footer from './Components/Footer/Footer';
+import Login from './Components/Login/Login';
 
 
 
@@ -19,6 +20,7 @@ function App() {
    <BannerFourth/>
    <Questions/>
    <Footer/>
+   {/* <Login/> */}
     </div>
   );
 }
