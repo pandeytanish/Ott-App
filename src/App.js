@@ -5,6 +5,7 @@ import BannerFourth from './Components/Banners/BannerFourth';
 import BannerSecond from './Components/Banners/BannerSecond';
 import BannerThird from './Components/Banners/BannerThird';
 import Questions from './Components/Questions/Questions';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -17,6 +18,7 @@ function App() {
    <BannerThird/>
    <BannerFourth/>
    <Questions/>
+   <Footer/>
     </div>
   );
 }
