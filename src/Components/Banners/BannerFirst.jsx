@@ -2,7 +2,7 @@ import React from 'react'
 
 function BannerFirst() {
   return (
-    <div className='h-[600px] w-full bg-black flex items-center justify-between px-[100px] border-t-8 border-zinc-800'>
+    <div className="h-[600px] w-full bg-black flex items-center justify-between px-[100px] border-t-8 border-zinc-800">
 
     <div className='h-[450px] w-[45%]  flex justify-center items-center  text-center '>
       <div>
@@ -12,7 +12,7 @@ function BannerFirst() {
         
 
     </div>
-    <div className='h-[450px] w-[45%]'>
+    <div className="h-[450px] w-[45%] ">
         <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
         
 

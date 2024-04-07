@@ -7,20 +7,22 @@ import BannerThird from './Components/Banners/BannerThird';
 import Questions from './Components/Questions/Questions';
 import Footer from './Components/Footer/Footer';
 import Login from './Components/Login/Login';
+import LoginPage from './Components/Login/LoginPage';
 
 
 
 function App() {
   return (
     <div>
-      <Home/>
+      {/* <Home/>
    <BannerFirst/>
    <BannerSecond/>
    <BannerThird/>
    <BannerFourth/>
    <Questions/>
    <Footer/>
-   {/* <Login/> */}
+   <Login/> */}
+<LoginPage/>
     </div>
   );
 }

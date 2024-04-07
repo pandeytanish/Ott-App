@@ -20,12 +20,12 @@ function Questions() {
         <div>
           {QuestionApi.map((api, index) => (
             <div className='flex items-center justify-center' key={index}>
-              <div className='h-[80px] w-[80%] py-[30px]'>
+              <div className='w-[80%] pb-5'>
                 <h2 className='text-white h-[70px] text-2xl bg-zinc-800 text-leftr py-2 px-6  hover:bg-zinc-600 flex justify-between items-center' onClick={() => handleToggle(index)}>
                   {api.question}
                   <p className='text-3xl'>{expandedIndex === index ? 'x' : '+'}</p>
                 </h2>
-                {expandedIndex === index && <p className='text-black h-[50px]  bg-slate-200 text-center py-2 '>{api.answer}</p>}
+                {expandedIndex === index && <p className='text-black h-auto  bg-slate-200 text-center py-2 '>{api.answer}</p>}
               </div>
             </div>
           ))}
