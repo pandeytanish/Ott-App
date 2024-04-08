@@ -8,6 +8,8 @@ import Questions from './Components/Questions/Questions';
 import Footer from './Components/Footer/Footer';
 import Login from './Components/Login/Login';
 import LoginPage from './Components/Login/LoginPage';
+import ContentBanner from './Components/Content/ContentBanner';
+import ContentBannerFirst from './Components/Content/Content Banners/ContentBannerFirst';
 
 
 
@@ -20,9 +22,12 @@ function App() {
    <BannerThird/>
    <BannerFourth/>
    <Questions/>
-   <Footer/>
-   <Login/> */}
-<LoginPage/>
+   <Footer/> */}
+   {/* <Login/> */}
+{/* <LoginPage/> */}
+
+<ContentBanner/>
+{/* <ContentBannerFirst/> */}
     </div>
   );
 }

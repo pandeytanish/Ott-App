@@ -12,6 +12,10 @@ function Footer() {
         <li>Investor Relations</li>
         <li>Privacy</li>
         <li>Speed Test</li>
+        <select className='h-[2rem] w-[8rem] rounded-md bg-black border border-white mt-4 hover:border-2 text-' >
+                                <option>English</option>
+                                <option>Hindi</option>
+                            </select>
         <li>Netflix India</li>
       </ul>
 
