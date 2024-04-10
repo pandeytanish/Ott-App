@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Login from './Login'
+
 
 function LoginPage() {
     return (
@@ -12,12 +15,12 @@ function LoginPage() {
                         <div>
                       <h1 className='text-white  text-4xl font-bold pt-8 pl-10 pb-3'>Sign In</h1>
                       
-                      <input className='border-red-700 border-2 rounded-md h-[3.5rem] w-[20rem] my-5 mx-10 pl-[15px] bg-black bg-opacity-70' placeholder='Email or Phone Number'></input>
+                      <input className='border-red-700 border-2 rounded-md h-[3.5rem] w-[20rem] my-5 mx-10 pl-[15px] bg-black bg-opacity-70 text-white' placeholder='Email or Phone Number'></input>
                       <br></br>
-                      <input className='border-red-700  border-2 rounded-md h-[3.5rem] w-[20rem] my-5 mx-10 pl-[15px] bg-black bg-opacity-70' placeholder='Password'></input>
-                      <button className='h-[3rem] w-[20rem] rounded-md bg-red-600 hover:bg-red-700 my-5 mx-10 font-semibold text-lg  text-white'>Sign In</button>
+                      <input className='border-red-700  border-2 rounded-md h-[3.5rem] w-[20rem] my-5 mx-10 pl-[15px] bg-black bg-opacity-70 text-white' placeholder='Password'></input>
+                      <Link to={"/Main"} ><button className='h-[3rem] w-[20rem] rounded-md bg-red-600 hover:bg-red-700 my-5 mx-10 font-semibold text-lg  text-white'>Sign In</button></Link>
                       <p className=' mx-[190px] text-lg text-slate-500 font-semibold'>OR</p>
-                      <button className='h-[3rem] w-[20rem] rounded-md bg-zinc-400 bg-opacity-50 hover:bg-zinc-500 hover:bg-opacity-50 my-5 mx-10 font-semibold text-lg text-white'>Sign In With Google</button>
+                      <button className='h-[3rem] w-[20rem] rounded-md bg-zinc-400 bg-opacity-50 hover:bg-zinc-500 hover:bg-opacity-50 my-5 mx-10 font-semibold text-lg text-white'>{<Login/>}</button>
                        <a className=' text-white mx-[140px] hover:text-slate-400  '>Forgot Passoword?</a>
                        <p className='pt-5 pl-10 text-xl mb-2  text-white '><input className='form-checkbox h-[22px] w-[22px] mr-1 mt-' type="checkbox" />  Remember me</p>
                        <p className='pl-10 pt-2 text-base text-white'>New to Netflix? <a href="">Sign up now</a></p>

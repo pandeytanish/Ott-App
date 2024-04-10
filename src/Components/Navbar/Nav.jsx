@@ -1,6 +1,8 @@
 import React from 'react'
 import Login from '../Login/Login'
 
+import { Link } from 'react-router-dom'
+
 function Nav() {
   return (
     
@@ -11,7 +13,8 @@ function Nav() {
 <option >English</option>
 <option >Hindi</option>
 </select>
-<button className='bg-red-600 py-2  rounded-md w-[5rem] text-white font-bold hover:bg-red-700'>{<Login/>}</button>
+<Link to={'Login'}>
+<button className='bg-red-600 py-2  rounded-md w-[5rem] text-white font-bold hover:bg-red-700'>Sign Up</button> </Link>
 </div>
 
 
