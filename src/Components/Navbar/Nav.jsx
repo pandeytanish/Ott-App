@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Nav() {
   return (
     
-   <div className=" flex items-center justify-between px-[150px] h-[100px] w-full bg-transparent  ">
+   <div className=" flex items-center justify-between px-[150px] h-[100px] w-full bg-transparent   ">
 <img className='h-[80px] w-[130px]' src='https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png'></img>
 <div className=' flex gap-5 '>
 <select className=' text-center rounded-md py-2  w-[10rem] bg-black text-white border-none font-bold '  >

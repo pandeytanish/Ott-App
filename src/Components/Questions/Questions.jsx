@@ -21,7 +21,7 @@ function Questions() {
           {QuestionApi.map((api, index) => (
             <div className='flex items-center justify-center' key={index}>
               <div className='w-[80%] pb-5'>
-                <h2 className='text-white h-[70px] text-2xl bg-zinc-800 text-leftr py-2 px-6  hover:bg-zinc-600 flex justify-between items-center' onClick={() => handleToggle(index)}>
+                <h2 className='text-whit e h-[70px] text-2xl bg-zinc-800 text-leftr py-2 px-6  hover:bg-zinc-600 flex justify-between items-center' onClick={() => handleToggle(index)}>
                   {api.question}
                   <p className='text-3xl'>{expandedIndex === index ? 'x' : '+'}</p>
                 </h2>

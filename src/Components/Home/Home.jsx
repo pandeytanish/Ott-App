@@ -1,8 +1,9 @@
 import React from 'react'
 import Nav from '../Navbar/Nav'
-import Login from '../Login/Login'
+// import Login from '../Login/Login'
 import BannerMain from '../Banners/BannerMain'
 import Footer from '../Footer/Footer'
+import Questions from '../Questions/Questions'
 import { Link } from 'react-router-dom'
 
 
@@ -29,6 +30,7 @@ function Home() {
     
     </div>
     <BannerMain/>
+    <Questions/>
     <Footer/>
     </>
   )
