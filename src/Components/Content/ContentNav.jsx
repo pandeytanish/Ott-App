@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContentNav() {
   return (
-    <div className='h-[70px] w-full bg-transparent flex items-center fixed top-0 '>
+    <div className='h-[70px] w-full bg-transparent flex items-center  '>
         <img className='h-[55px] w-[90px] ml-14 ' src='https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png'></img>
        <div className='flex space-x-5 justify-between ml-[50px] text-white  '>
         <p className='font-bold hover:text-zinc-400'>Home</p>
